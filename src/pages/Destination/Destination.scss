@@ -1,0 +1,81 @@
+.destination-page {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(../../assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 75px 11.47% 115px;
+
+    .left-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      img {
+        margin-top: 95px;
+        margin-left: 64px;
+        width: 445px;
+        height: 445px;
+      }
+    }
+
+    .right-container {
+      max-width: 445px;
+      width: 100%;
+
+      nav {
+        margin-bottom: 36px;
+
+        a {
+          font-family: "Barlow Condensed";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 2.7px;
+          text-transform: uppercase;
+          text-decoration: none;
+
+          color: #d0d6f9;
+
+          margin: 0 36px 0 0;
+          padding-bottom: 12px;
+
+          border-bottom: 3px solid rgba($color: #ffffff, $alpha: 0);
+          transition: all 0.3s ease-in-out;
+        }
+
+        .active-tab {
+          border-bottom: 3px solid rgba($color: #ffffff, $alpha: 1);
+        }
+      }
+
+      .moon-content {
+        margin: 14px 0 28px;
+        padding-bottom: 54px;
+
+        border-bottom: 1px solid #383b4b;
+      }
+
+      .distance-duration {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        p {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
