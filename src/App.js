@@ -1,11 +1,10 @@
-import NavBar from "./components/NavBar/NavBar";
-import Home from './pages/Home/Home'
+import Destination from './pages/Destination/Destination'
 import './App.scss'
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Destination />
     </div>
   );
 }
