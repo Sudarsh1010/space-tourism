@@ -94,7 +94,7 @@ h5 {
   color: #D0D6F9;
 }
 
-.subheading1 {
+#subheading1 {
   font-family: 'Bellefair';
   font-style: normal;
   font-weight: 400;
@@ -107,7 +107,7 @@ h5 {
   color: #FFFFFF;
 }
 
-.subheading2 {
+#subheading2 {
   font-family: 'Barlow Condensed';
   font-style: normal;
   font-weight: 400;
